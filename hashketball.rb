@@ -260,10 +260,11 @@ def long_name_steals_a_ton?
   
   
   game_hash.each do |location, team_data|
-    
+    binding.pry
     team_data[:players].each do |player, stats|
-      
+      binding.pry
       if stats[:steals] > steals
+        binding.pry
         steals = stats[:steals]
         player_with_most_steals = player
 end
