@@ -257,7 +257,7 @@ end
 def long_name_steals_a_ton?
   steals = []
   most_steals = nil
-  player_with_most_steals = nil
+  player_with_most_steals = ""
   
   
   game_hash.each do |location, team_data|
