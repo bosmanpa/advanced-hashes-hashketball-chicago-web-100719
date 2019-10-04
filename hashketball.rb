@@ -265,9 +265,8 @@ def long_name_steals_a_ton?
     player_hash.each do |player_name, stats|
     steals.push(stats[:steals])
       most_steals = steals.max
-      if stats[:steals] == most_steals
-      player_with_most_steals = player_name 
-  end
+      
+      player_with_most_steals = player_name if stats[:steals] == most_steals
 end
 end 
 end 
