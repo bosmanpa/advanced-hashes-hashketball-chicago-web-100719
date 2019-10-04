@@ -265,7 +265,7 @@ def long_name_steals_a_ton?
       if player_hash[:steals] > steals
 
         steals = player_hash[:steals]
-        player_with_most_steals = player
+        player_with_most_steals = player_name
 end
 end
 end
